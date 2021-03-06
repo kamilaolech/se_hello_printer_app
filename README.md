@@ -31,10 +31,10 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
   $ make test
   ```
 
-  - Uruchamianie linter-a:
+- Uruchamianie linter-a:
 
     ```
-    $ make lint
+  $ make lint
     ```
 
 - Kontynuując pracę z projektem, aktywowanie hermetycznego środowiska dla aplikacji py:
@@ -45,8 +45,6 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
   ```
 
   ```
-  ...
-
   # aktywacja
   $ source .venv/bin/activate
   ```
