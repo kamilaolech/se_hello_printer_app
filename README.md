@@ -31,6 +31,12 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
   $ make test
   ```
 
+  - Uruchamianie linter-a:
+
+    ```
+    $ make lint
+    ```
+
 - Kontynuując pracę z projektem, aktywowanie hermetycznego środowiska dla aplikacji py:
 
   ```
