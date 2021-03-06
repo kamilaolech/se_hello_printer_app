@@ -9,7 +9,8 @@ SUPPORTED = [PLAIN, PLAIN_UP, PLAIN_LO, JSON]
 
 def get_formatted(msg, imie, format):
     result = ""
-    if format == PLAIN:
+    #if format == PLAIN:
+if format == PLAIN:
         result = plain_text(msg, imie)
     elif format == PLAIN_UP:
         result = plain_text_upper_case(msg, imie)
