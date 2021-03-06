@@ -1,4 +1,6 @@
 language: python
+services:
+  - docker
 python:
   - "3.8"
 install:
@@ -7,3 +9,5 @@ linter:
   - make lint
 script:
   - make test
+after_success:
+  - make docker_build
