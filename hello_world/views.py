@@ -1,6 +1,7 @@
 from hello_world import app
 from hello_world.formater import get_formatted
 from hello_world.formater import SUPPORTED, PLAIN
+from hello_world.formater import SUPPORTED, XML
 from flask import request
 
 moje_imie = "Kamila"
@@ -10,9 +11,10 @@ msg = "Hello World!"
 @app.route('/')
 def index():
     output = request.args.get('output')
+    name = request.args.get('name')
     if not output:
         output = PLAIN
-    return get_formatted(msg, moje_imie,
+    return get_formatted(msg, name if name else moje_imie,
                          output.lower())
 
 
