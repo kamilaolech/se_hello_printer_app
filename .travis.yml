@@ -5,9 +5,14 @@ python:
   - "3.8"
 install:
   - make deps
-linter:
-  - make lint
 script:
   - make test
-after_success:
+  - make lint
   - make docker_build
+  - make docker_push
+#linter:
+#  - make lint
+#script:
+#  - make test
+#after_success:
+#  - make docker_build
