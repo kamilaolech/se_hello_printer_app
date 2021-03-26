@@ -23,7 +23,7 @@ docker_run: docker_build
 		-d hello-world-printer
 
 USERNAME=wsb123ko
-TAG=$(USERNAME)/hello-world-hello_world_printer
+TAG=$(USERNAME)/hello-world-printer
 
 docker_push: docker_build
 	@docker login --username $(USERNAME) --password $${DOCKER_PASSWORD}; \
@@ -32,4 +32,4 @@ docker_push: docker_build
 	docker logout;
 
 test_smoke:
-	curl --fail 127.0.0.1:5000 
+	curl --fail 127.0.0.1:5000
