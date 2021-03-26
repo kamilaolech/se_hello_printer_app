@@ -15,7 +15,7 @@ class FlaskrTestCase(unittest.TestCase):
         s = str(rv.data)
         ','.join(SUPPORTED) in s
 
-    def test_msg_with_output(self):
+    def test_msg_with_output_json(self):
         rv = self.app.get('/?output=json')
         JSON_Datalist = json.loads(rv.data)
         JSON_Result = {"imie": "Kamila", "msg": "Hello World!"}
