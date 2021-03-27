@@ -1,3 +1,6 @@
+  [![Build Status](https://travis-ci.com/kamilaolech/se_hello_printer_app.svg?branch=master)](https://travis-ci.com/kamilaolech/se_hello_printer_app)   
+  [![StatusCake Budge](https://app.statuscake.com/button/index.php?Track=TRACK=5902161&Days=1&Design=1)](https://app.statuscake.com/YourStatus2.php)
+
 # Simple Flask App
 
 Aplikacja Dydaktyczna wyświetlająca imię i wiadomość w różnych formatach dla zajęć
@@ -51,15 +54,11 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
 
 - Integracja z TravisCI:
 
-  [![Build Status](https://travis-ci.com/kamilaolech/se_hello_printer_app.svg?branch=master)](https://travis-ci.com/kamilaolech/se_hello_printer_app)
-
   ```
   # miejsce na twoje notatki
   ```
 
 - Monitoring z statuscake:
-
-  [![StatusCake Budge](https://app.statuscake.com/button/index.php?Track=TRACK_ID&Days=1&Design=1)](https://app.statuscake.com/YourStatus2.php)
 
     ```
   # miejsce na twoje notatk
