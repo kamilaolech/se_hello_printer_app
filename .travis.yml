@@ -10,6 +10,10 @@ script:
   - make lint
   - make docker_build
   - make docker_push
+deploy:
+  provider: heroku
+  app: fast-sierra-68064
+  api_key: ${HEROKU_API_KEY}
 #linter:
 #  - make lint
 #script:
