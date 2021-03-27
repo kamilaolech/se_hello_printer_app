@@ -51,7 +51,7 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
 
 - Integracja z TravisCI:
 
-  ![Travis Badge](https://api.travis-ci.com/kamilaolech/se_hello_printer_app.svg?branch=master&status=passed)
+  [![Build Status](https://travis-ci.com/kamilaolech/se_hello_printer_app.svg?branch=master)](https://travis-ci.com/kamilaolech/se_hello_printer_app)
 
   ```
   # miejsce na twoje notatki
@@ -59,7 +59,7 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
 
 - Monitoring z statuscake:
 
-  ![StatusCake Budge](https://app.statuscake.com/button/index.php?Track=TRACK_ID&Days=1&Design=1)
+  [![StatusCake Budge](https://app.statuscake.com/button/index.php?Track=TRACK_ID&Days=1&Design=1)](https://app.statuscake.com/YourStatus2.php)
 
     ```
   # miejsce na twoje notatk
