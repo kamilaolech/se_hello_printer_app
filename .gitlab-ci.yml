@@ -16,4 +16,6 @@ docker:
   - docker:dind
   stage: docker_build
   script:
-  - docker build -t myapp .
+  #- docker build -t myapp .
+  - apk add --update make
+  - make docker_build
