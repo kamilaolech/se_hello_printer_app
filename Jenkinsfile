@@ -6,8 +6,13 @@ pipeline {
 	                   sh 'make deps'
                   }
             }
-            stage('Test') {
-              steps {
+        stage('Linter') {
+            steps {
+                     sh 'make lint'
+                  }
+            }
+        stage('Test') {
+            steps {
 	                    sh 'make test'
           	       }
         }
