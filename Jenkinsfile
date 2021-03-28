@@ -22,7 +22,7 @@ pipeline {
                           JUnit(deleteOutputFiles: true,
                             failIfNotNew: true,
                             pattern: 'test_results.xml',
-                            skipNotestFiles: false,
+                            skipNoTestFiles: false,
                             stopProcessingIfError: true)
                           ]
                         }
