@@ -1,5 +1,4 @@
-  [![Build Status](https://travis-ci.com/kamilaolech/se_hello_printer_app.svg?branch=master)](https://travis-ci.com/kamilaolech/se_hello_printer_app)   
-  [![StatusCake Budge](https://app.statuscake.com/button/index.php?Track=TRACK=5902161&Days=1&Design=1)](https://app.statuscake.com/YourStatus2.php)
+  [![Build Status](https://travis-ci.com/kamilaolech/se_hello_printer_app.svg?branch=master)](https://travis-ci.com/kamilaolech/se_hello_printer_app)   [![Build Status](https://app.statuscake.com/button/index.php?Track=5902161&Days=1&Design=4)](https://statuscake.com)
 
 # Simple Flask App
 
